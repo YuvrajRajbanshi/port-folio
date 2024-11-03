@@ -4,6 +4,7 @@ import { SiCss3 } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { RiReactjsFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
+import { FaFigma } from "react-icons/fa6";
 
 import Button from "./Button";
 
@@ -18,6 +19,7 @@ const Language = ({ Technology }) => {
           <Button Name={"Tailwind"} logo={<SiTailwindcss />} />
           <Button Name={"JavaScript"} logo={<IoLogoJavascript />} />
           <Button Name={"React.js"} logo={<RiReactjsFill />} />
+          <Button Name={"Figma"} logo={<FaFigma />} />
         </div>
       </div>
     </div>

@@ -18,32 +18,32 @@ const AboutSkills = () => {
             <span className=" text-6xl font-serif font-semibold text-gray-700 dark:text-white">
               Yuvraj Singh
             </span>
-            <h2 className="text-2xl font-bold font-mono ">
+            <h2 className="text-3xl font-bold font-mono ">
               Computer Science and Engineer
             </h2>
           </h1>
 
           <div className=" flex  items-center gap-6 mt-4">
             <Link to="https://github.com/YuvrajRajbanshi" target="_blank">
-              <FaGithub />
+              <FaGithub className="text-2xl" />
             </Link>
             <Link
               to="https://www.linkedin.com/in/yuvraj-singh-893845259/"
               target="_blank"
             >
-              <FaLinkedin />
+              <FaLinkedin className="text-2xl" />
             </Link>
             <Link
               to="https://www.instagram.com/yuvraj_singh_49/"
               target="_blank"
             >
-              <FaSquareInstagram />
+              <FaSquareInstagram className="text-2xl" />
             </Link>
             <Link
               to="https://www.facebook.com/people/Vivaan-Singh/pfbid02eCTVbZFCqNqta3cUS33iadmWbzEkCnkmdSQwcFfcYdArWX1NHDwGcSufx1G2yvhJl/"
               target="_blank"
             >
-              <FaFacebook />
+              <FaFacebook className="text-2xl" />
             </Link>
           </div>
         </div>

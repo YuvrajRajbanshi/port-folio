@@ -8,11 +8,11 @@ const Skills = () => {
     <>
       <div className=" dark:text-white dark:bg-[#2f2f2f] p-20 h-[80vh]">
         <h1 className=" text-center  text-2xl md:text-4xl mt-10 md:mt-0 font-medium font-mono ">
-          Skill
+          Skills
         </h1>
         <div className=" flex items-center  justify-center flex-wrap">
-          <Language Technology={"Frontend"} />
-          <Language1 Technology={"Backend"} />
+          <Language Technology={"FrontEnd"} />
+          <Language1 Technology={"BackEnd"} />
           <Language2 Technology={"Others"} />
         </div>
       </div>

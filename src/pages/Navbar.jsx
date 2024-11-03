@@ -30,7 +30,7 @@ function App() {
           <div className="md:hidden   flex items-center gap-4 p-2">
             {isMenuOpen ? (
               <RxCross1
-                className=" text-white text-2xl cursor-pointer  dark:text-black"
+                className=" text-white text-2xl cursor-pointer  dark:text-black "
                 onClick={toggleMenu}
               />
             ) : (
@@ -42,14 +42,14 @@ function App() {
 
             {darkMode ? (
               <CiSun
-                className=" text-2xl cursor-pointer"
+                className="   cursor-pointer  "
                 onClick={() => {
                   setDarkMode(!darkMode);
                 }}
               />
             ) : (
               <MdDarkMode
-                className=" text-2xl cursor-pointer"
+                className="  cursor-pointer"
                 onClick={() => {
                   setDarkMode(!darkMode);
                 }}
@@ -63,7 +63,7 @@ function App() {
               className={({ isActive }) =>
                 `${
                   isActive ? "text-red-400" : ""
-                } transition duration-500 ease-in-out hover:text-red-400`
+                } transition duration-500 ease-in-out hover:text-red-400 text-xl`
               }
             >
               Home
@@ -72,7 +72,7 @@ function App() {
               className={({ isActive }) =>
                 `${
                   isActive ? "text-red-400" : ""
-                } transition duration-500 ease-in-out hover:text-red-400`
+                } transition duration-500 ease-in-out hover:text-red-400 text-xl`
               }
               to="/about"
             >
@@ -82,7 +82,7 @@ function App() {
               className={({ isActive }) =>
                 `${
                   isActive ? "text-red-400" : ""
-                } transition duration-500 ease-in-out hover:text-red-400`
+                } transition duration-500 ease-in-out hover:text-red-400 text-xl`
               }
               to="/coding"
             >
@@ -92,7 +92,7 @@ function App() {
               className={({ isActive }) =>
                 `${
                   isActive ? "text-red-400" : ""
-                } transition duration-500 ease-in-out hover:text-red-400`
+                } transition duration-500 ease-in-out hover:text-red-400 text-xl`
               }
               to="/skills"
             >
@@ -102,7 +102,7 @@ function App() {
               className={({ isActive }) =>
                 `${
                   isActive ? "text-red-400" : ""
-                } transition duration-500 ease-in-out hover:text-red-400`
+                } transition duration-500 ease-in-out hover:text-red-400 text-xl`
               }
               to="/projects"
             >
@@ -112,7 +112,7 @@ function App() {
               className={({ isActive }) =>
                 `${
                   isActive ? "text-red-400" : ""
-                } transition duration-500 ease-in-out hover:text-red-400`
+                } transition duration-500 ease-in-out hover:text-red-400 text-xl`
               }
               to="/contact"
             >
@@ -121,14 +121,14 @@ function App() {
 
             {darkMode ? (
               <CiSun
-                className=" text-2xl cursor-pointer  "
+                className=" text-3xl cursor-pointer   "
                 onClick={() => {
                   setDarkMode(!darkMode);
                 }}
               />
             ) : (
               <MdDarkMode
-                className=" text-2xl cursor-pointer"
+                className=" text-3xl cursor-pointer"
                 onClick={() => {
                   setDarkMode(!darkMode);
                 }}

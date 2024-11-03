@@ -3,7 +3,7 @@ import React from "react";
 import ProjectsCard from "./projects/ProjectsCard.jsx";
 import netflix from "../assets/photos/netflix.png";
 import food from "../assets/photos/food.jpg";
-import quiz from "../assets/photos/quiz.png";
+import quiz from "../assets/photos/quiz1.png";
 
 const Projects = () => {
   return (

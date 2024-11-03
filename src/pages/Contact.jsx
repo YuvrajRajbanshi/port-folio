@@ -34,10 +34,10 @@ const Contact = () => {
       <div className="w-[50%] h-full flex flex-col items-center justify-center gap-10">
         <h1 className="font-bold text-3xl">Contact Me</h1>
         <div className="ml-64">
-          <h3 className="text-4xl">Let's form an alliance.</h3>
+          <h3 className="text-4xl">Let's form an alliance</h3>
           <p className="text-justify mt-2">
             I'm always open to new connections and collaborations; feel free to
-            reach out via email or connect with me on LinkedIn or Twitter.
+            reach out via email or connect with me on LinkedIn or Twitter
           </p>
           <div className="flex items-center gap-3 mt-5">
             <MdEmail className="text-4xl" />
@@ -83,7 +83,7 @@ const Contact = () => {
             />
             <button
               type="submit"
-              className="w-full bg-green-500 rounded-md p-2 font-bold mt-4"
+              className="w-full bg-gray-700 rounded-md p-2 font-bold mt-4"
             >
               Submit Message
             </button>

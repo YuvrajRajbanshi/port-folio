@@ -12,7 +12,7 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className=" dark:bg-gray-700 bg-[#2f2f2f] text-white p-10  ">
-      <p className=" text-center ">© 2024 Yuvraj singh. All rights reserved.</p>
+      <p className=" text-center ">© 2024 Yuvraj Singh. All rights reserved</p>
     </div>
   );
 };

@@ -4,6 +4,7 @@ import { CiSun } from "react-icons/ci";
 import { RxCross1 } from "react-icons/rx";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../assets/photos/logo11.jpg";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,9 +24,11 @@ function App() {
 
   return (
     <>
-      <nav className="dark:bg-gray-300 dark:text-black bg-slate-500 p-4 ">
+      <nav className="dark:bg-gray-300 dark:text-black bg-slate-500 p-3 ">
         <div className="flex items-center justify-between md:justify-around ">
-          <div className=" dark:text-black text-2xl font-bold "> Logo</div>
+          <div className=" dark:text-black text-2xl font-bold ">
+            <img src={logo} alt="logo" className=" h-10 w-52 rounded-md" />
+          </div>
 
           <div className="md:hidden   flex items-center gap-4 p-2">
             {isMenuOpen ? (
